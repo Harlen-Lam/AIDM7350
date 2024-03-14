@@ -1,0 +1,36 @@
+p {
+    font-size: 20px;
+    color: red;
+}
+
+p:hover {
+    background: yellow;
+}
+
+.standout {
+    color: skyblue;
+}
+
+h2.standout {
+    color: green;
+}
+
+.image1:hover {
+    border-radius: 50%;
+}
+
+.image2:hover {
+    border-radius: 30px;
+}
+
+.image3:hover {
+    opacity: 0.5;
+}
+
+.image4:hover {
+    filter: grayscale(80%);
+}
+
+.image5:hover {
+    filter: blur(10px);
+}
